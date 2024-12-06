@@ -1,0 +1,106 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: "Poppins", serif;
+}
+
+.loginPage{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:2%;
+    margin:2%;
+    margin-top:10%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#loginbtn,#okbtn,#prev,#next,#submit,#restart{
+    background-color: blue;
+    color: white;
+    width:100px;
+    margin-top:1%;
+    padding:10px;
+    border:transparent solid 3px;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+.instructionsPage{
+
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding:2%;
+    margin:2%;
+    margin-top:10%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.questionsPage{
+    
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding:2%;
+    margin:2%;
+    margin-top:10%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.navigators{
+
+    margin-left:10%;
+
+}
+    
+.resultsPage{
+      
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding:2%;
+    margin:2%;
+    margin-top:10%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#answer{
+    background-color: blue;
+    color: white;
+    width:150px;
+    margin-top:25%;
+    padding:10px;
+    border:transparent solid 3px;
+    border-radius:5px;
+
+}
+
+.answersPage{
+
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding:2%;
+    margin:2%;
+    margin-top:10%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+#userInfo{
+    margin-top:2%;
+}
+
+#userEmail{
+    margin-left:4px;
+    margin-top:1%;
+}
